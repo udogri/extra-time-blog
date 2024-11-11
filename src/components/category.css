@@ -1,0 +1,126 @@
+/* General Styles for Blog Page */
+.blog-page {
+  display: block;
+  max-width: 100%;
+  width: 100vw;
+  padding: 20px;
+  box-sizing: border-box; /* Ensure padding is included in the width */
+}
+
+.article {
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-bottom: 20px;
+  width: 100%; /* Full width */
+  max-width: 100%; /* Remove fixed max-width */
+  box-sizing: border-box;
+  transition: transform 0.3s ease;
+}
+
+
+.article h2 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+  font-weight: 800;
+}
+
+.article p {
+  font-size: 1.2rem;
+  max-height: 3.8em; /* Limit to 3 lines */
+  line-height: 1.2em; 
+  text-overflow: ellipsis;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 3; /* Limit to 3 lines */
+  -webkit-box-orient: vertical;
+  color: #333;
+}
+
+.article img.thumbnail {
+  width: 100%;
+  max-width: 100%; /* Ensure images don't overflow */
+  border-radius: 4px;
+  height: auto;
+  margin: 10px 0;
+  object-fit: cover; /* Makes sure the image scales proportionally */
+}
+
+.article button {
+  background-color: #1f362e;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+
+.article button:hover {
+  background-color: #2e5a4a;
+}
+
+.blog-page.loading {
+  width: 100vw; /* Maintain full width during loading */
+  height: 100vh;
+  border: 2px solid red;
+}
+
+/* Media Query for devices with max-width of 720px */
+@media screen and (max-width: 720px) {
+  .article {
+    padding: 15px;
+  }
+
+  .article h2 {
+    font-size: 1.8rem;
+  }
+
+  .article p {
+    font-size: 1.1rem;
+  }
+
+  .article button {
+    padding: 8px 15px;
+  }
+}
+
+/* Media Query for devices with max-width of 560px */
+@media screen and (max-width: 560px) {
+  .article {
+    padding: 10px;
+  }
+
+  .article h2 {
+    font-size: 1.5rem;
+  }
+
+  .article p {
+    font-size: 1rem;
+  }
+
+  .article button {
+    padding: 7px 12px;
+  }
+}
+
+/* Media Query for devices with max-width of 320px */
+@media screen and (max-width: 320px) {
+  .article {
+    padding: 10px;
+  }
+
+  .article h2 {
+    font-size: 1.3rem;
+  }
+
+  .article p {
+    font-size: 0.95rem;
+  }
+
+  .article button {
+    padding: 6px 10px;
+  }
+}

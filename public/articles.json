@@ -1,0 +1,220 @@
+{
+  "business": [
+    {
+      "id": 1,
+      "title": "Global Markets Rally Amid Economic Optimism",
+      "author": "Jane Doe",
+      "date": "2024-08-29",
+      "summary": "Stock markets around the world have seen a significant rise as investors gain confidence in the global economic recovery.",
+      "content": "The global markets have experienced a notable rally, with major indices showing positive trends. This surge is attributed to renewed investor confidence, spurred by positive economic data and easing inflation concerns. Experts believe that this trend may continue as central banks adopt more accommodative monetary policies.",
+      "image": "/images/economic optimism.jpg",
+      "category": "business"
+    },
+    {
+      "id": 2,
+      "title": "Tech Giants Announce New Collaborative Projects",
+      "author": "John Smith",
+      "date": "2024-08-28",
+      "summary": "Leading tech companies have unveiled new joint ventures aimed at advancing AI and blockchain technologies.",
+      "content": "In a landmark announcement, several tech giants have revealed their plans to collaborate on groundbreaking projects in artificial intelligence and blockchain. These initiatives are expected to accelerate innovation and bring about significant advancements in various industries, including healthcare, finance, and logistics.",
+      "image": "/images/tech colab.png",
+      "category": "business"
+    }
+  ],
+  "sports": [
+    {
+      "id": 1,
+      "title": "Arsenal Aims for Premier League Glory This Season",
+      "author": "Adeola Balogun",
+      "date": "2024-08-29",
+      "summary": "Arsenal sets sights on Premier League title as they kick off the new season with confidence.",
+      "content": "Arsenal has started the 2024/2025 Premier League season with high hopes of ending their long title drought. After strengthening the squad with key signings during the summer transfer window, manager Mikel Arteta is confident that the Gunners have what it takes to challenge for the title. Fans are eagerly anticipating how the new players will adapt, especially with the team’s focus on both domestic and European competitions this year. The North London club is determined to put in a strong performance after narrowly missing out on the title last season.",
+      "image": "/images/Arsenal.jpg",
+      "category": "sports"
+    },
+    {
+      "id": 2,
+      "title": "New UEFA Champions League Format Kicks Off this week",
+      "author": "Michael Johnson",
+      "date": "2024-08-28",
+      "summary": "More Games, More Drama: What to Expect from the 2024/25 Champions League",
+      "content": "The new Champions League format kicks off this month, promising more games and more drama than ever before. With 36 teams competing in a single league rather than small groups, football fans can look forward to marquee matchups in the group stage, a departure from the sometimes one-sided affairs of the past.\n\nMore matches also mean more opportunities for surprises and upsets, as mid-tier teams will have a better chance to qualify for the knockout rounds. UEFA’s new format is designed to inject more excitement into every stage of the competition, right from the group phase through to the final.",
+      "image": "/images/ucl.jpg",
+      "category": "sports"
+    }
+  ],
+  "politics": [
+    {
+      "id": 1,
+      "title": "National Assembly Debates New Electoral Reforms.",
+      "author": "Chinwe Okeke",
+      "date": "2024-08-29",
+      "summary": "The National Assembly has begun deliberations on proposed electoral reforms aimed at enhancing the transparency and fairness of future elections.",
+      "content": "The Nigerian National Assembly is currently engaged in discussions regarding a series of proposed electoral reforms. These reforms are intended to improve the conduct of elections in the country by introducing measures such as electronic voting and stricter campaign finance regulations. Lawmakers from different political parties have expressed varying opinions on the proposals, with some advocating for immediate implementation while others call for further review.",
+      "image": "/images/National-assembly-abuja-building-e1355850360376.jpg",
+      "category": "politics"
+    },
+    {
+      "id": 2,
+      "title": "President Addresses the Nation on Security Challenges",
+      "author": "Bola Adeniyi",
+      "date": "2024-08-28",
+      "summary": "In a national broadcast, the President outlined new strategies to combat the ongoing security challenges in the country.",
+      "content": "President Muhammadu Buhari addressed the nation in a live broadcast, discussing the current security challenges facing Nigeria. The President emphasized the government's commitment to restoring peace and stability, announcing several new measures to strengthen the military and enhance intelligence operations. The speech was met with mixed reactions, with some citizens expressing optimism while others remain skeptical of the government's ability to effectively implement the proposed strategies.",
+      "image": "/images/Bola-Ahmed-Tinubu-1-2.png",
+      "category": "politics"
+    }
+  ],
+  "topStory": [
+    {
+      "id": 1,
+      "title": "Global Markets Rally as Economic Outlook Improves",
+      "author": "John Doe",
+      "date": "2024-10-09T19:20:44.985Z",
+      "image": "/images/economic optimism.jpg",
+      "summary": "Global stock markets rallied today as positive economic data bolstered investor confidence...",
+      "content": "The global markets experienced a significant rally today, driven by positive economic indicators...",
+      "category": "topStory"
+    }
+  ],
+  "latestNews": [
+    {
+      "id": 6,
+      "title": "ghghbjh",
+      "author": "jhjhnjjk",
+      "date": "2024-10-07T18:18:33.173Z",
+      "summary": "gbhghghghgbh",
+      "content": "ghghbghbgh",
+      "category": "latestNews",
+      "image": "/images/image-1728325113291-949136266.webp"
+    },
+    {
+      "id": 1,
+      "title": "Tech Giants Announce New Innovations",
+      "author": "Jane Smith",
+      "date": "2024-10-10T16:33:28.140Z",
+      "image": "/images/GettyImages-482316815.webp",
+      "summary": "Several leading tech companies have unveiled their latest innovations in an event held yesterday...",
+      "content": "At the event, several tech giants announced their latest products and innovations...",
+      "category": "latestNews"
+    },
+    {
+      "id": 3,
+      "title": "Global Environmental Conference Highlights Climate Issues",
+      "author": "Michael Green",
+      "date": "2024-08-27",
+      "image": "/images/climate.jpg",
+      "summary": "World leaders and environmental experts gathered to discuss pressing climate issues...",
+      "content": "The global environmental conference highlighted the urgent need to address climate change...",
+      "category": "latestNews"
+    }
+  ],
+  "trending": [
+    {
+      "id": 1,
+      "title": "Fashion Trends for Fall 2024",
+      "author": "Emily White",
+      "date": "2024-08-26",
+      "image": "/images/autumn-winter-2024-fashion-trends-660d4164840b2.avif",
+      "summary": "This fall's fashion trends are all about sustainability and comfort...",
+      "content": "Fashion designers are focusing on sustainability and comfort for the fall 2024 collections...",
+      "category": "trending"
+    },
+    {
+      "id": 2,
+      "title": "Cryptocurrency Market Volatility Continues",
+      "author": "David Black",
+      "date": "2024-08-25",
+      "image": "/images/crpto.jpg",
+      "summary": "The cryptocurrency market continues to experience significant volatility as investors react to market changes...",
+      "content": "Cryptocurrency markets have been particularly volatile in recent weeks, with prices fluctuating wildly...",
+      "category": "trending"
+    },
+    {
+      "id": 3,
+      "title": "Electric Vehicles: The Future of Transportation",
+      "author": "Sophia Blue",
+      "date": "2024-08-24",
+      "image": "/images/alternative-auto-automobile-110844-scaled.webp",
+      "summary": "Electric vehicles are rapidly becoming the future of transportation with new models hitting the market...",
+      "content": "The adoption of electric vehicles is accelerating as new models with extended range and faster charging...",
+      "category": "trending"
+    }
+  ],
+  "local": [
+    {
+      "id": 1,
+      "title": "Delta State Hosts Annual Cultural Festival",
+      "author": "Samuel Ade",
+      "date": "2024-08-23",
+      "image": "/images/delta.jpg",
+      "summary": "The annual cultural festival in Delta State showcases the rich heritage of the region...",
+      "content": "Delta State's annual cultural festival has once again brought together communities to celebrate...",
+      "category": "local"
+    },
+    {
+      "id": 2,
+      "title": "Lagos Government Unveils New Infrastructure Plans",
+      "author": "Grace Olatunji",
+      "date": "2024-08-22",
+      "image": "/images/lagos-1.jpg",
+      "summary": "The Lagos State government has announced ambitious plans to overhaul the city's infrastructure...",
+      "content": "Lagos State has unveiled its infrastructure development plans, which aim to improve transportation...",
+      "category": "local"
+    },
+    {
+      "id": 3,
+      "title": "Rivers State Boosts Agricultural Development",
+      "author": "Nnamdi Eze",
+      "date": "2024-08-21",
+      "image": "/images/rivers state.jpg",
+      "summary": "Rivers State is making significant investments in agriculture to improve food security...",
+      "content": "In a bid to improve food security and boost the economy, Rivers State is investing heavily in agricultural development...",
+      "category": "local"
+    }
+  ],
+  "world": [
+    {
+      "id": 1,
+      "title": "UN Summit Addresses Global Health Challenges",
+      "author": "Marie Dupont",
+      "date": "2024-08-20",
+      "image": "/images/un health.webp",
+      "summary": "The UN summit focused on addressing critical global health challenges, including pandemics and healthcare access...",
+      "content": "World leaders and health experts gathered at the UN summit to discuss strategies for tackling global health challenges...",
+      "category": "world"
+    },
+    {
+      "id": 2,
+      "title": "Economic Crisis Looms in South America",
+      "author": "Carlos Ruiz",
+      "date": "2024-08-19",
+      "image": "/images/south america.webp",
+      "summary": "South American economies are facing a severe crisis as inflation rates soar and currencies devalue...",
+      "content": "The economic situation in South America is becoming increasingly dire, with several countries experiencing severe inflation...",
+      "category": "world"
+    },
+    {
+      "id": 3,
+      "title": "Asia-Pacific Trade Agreements to Boost Regional Economy",
+      "author": "Li Wei",
+      "date": "2024-08-18",
+      "image": "/images/asia-pacific.jpg",
+      "summary": "New trade agreements in the Asia-Pacific region are expected to boost the regional economy and enhance cooperation...",
+      "content": "The recent trade agreements signed by Asia-Pacific countries are set to enhance economic cooperation and boost the regional economy...",
+      "category": "world"
+    }
+  ],
+  "latestnews": [
+    {
+      "id": 1,
+      "title": "tygytyg",
+      "date": "2024-09-24",
+      "summary": "okpkojjol",
+      "content": "okjojkmkl",
+      "category": "latestnews",
+      "author": "g7ugugyu",
+      "image": "/images/image-1727192349120-173370395.png"
+    }
+  ]
+}

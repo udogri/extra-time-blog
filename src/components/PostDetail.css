@@ -1,0 +1,131 @@
+/* Styling for the PostDetail component */
+.post-detail {
+    max-width: 100%;
+    width: 100vw;
+    overflow: hidden;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    font-family: 'Arial', sans-serif;
+    box-sizing: border-box;
+  }
+  
+  .post-detail h1 {
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .post-detail img {
+    width: 100%;  
+    height: auto;
+    object-fit: cover;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+  
+  .post-detail p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    color: #555;
+  }
+  
+  .post-detail button {
+    background-color: #1f362e;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-left: 10px;
+  }
+  
+  .post-detail button:hover {
+    background-color: #2e5a4a;
+  }
+  
+  .post-detail .delete{
+    background-color: red;
+  }
+
+  .post-detail .delete:hover {
+    background-color: rgb(185, 9, 9);
+  }
+
+  .blog-page.loading {
+    width: 100vw; /* Maintain full width during loading */
+    height: 100vh;
+    border: 2px solid red;
+  }
+
+  /* Responsive Styles */
+  @media only screen and (max-width: 768px) {
+    .post-detail {
+      padding: 15px;
+    }
+  
+    .post-detail h1 {
+      font-size: 25px;
+    }
+  
+    .post-detail p {
+      font-size: 1.1em;
+    }
+  
+    .post-detail button {
+      padding: 8px 15px;
+      font-size: 0.9em;
+      margin-left: 10px;
+    }
+
+    .post-detail h1 {
+      font-size: 20px;
+    }
+  }
+  
+  @media only screen and (max-width: 550px) {
+    .post-detail {
+      padding: 10px;
+    }
+  
+    .post-detail h1 {
+      font-size: 20px;
+    }
+  
+    .post-detail p {
+      font-size: 1em;
+    }
+  
+    .post-detail button {
+      padding: 6px 12px;
+      
+      margin-left: 10px;
+    }
+  }
+  
+  @media only screen and (max-width: 320px) {
+    .post-detail {
+      padding: 5px;
+    }
+  
+    .post-detail h1 {
+      font-size: 18px;
+    }
+  
+    .post-detail p {
+      font-size: 0.9em;
+    }
+  
+    .post-detail button {
+      width: 100%;
+      padding: 5px 10px;
+      font-size: 0.9em;
+      margin-left: 10px;
+      margin-top: 5px;
+    }
+  }
+  

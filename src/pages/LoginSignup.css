@@ -1,0 +1,100 @@
+/* General container styling */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  display: flex; /* Flexbox for centering */
+  justify-content: center; /* Horizontal centering */
+  align-items: center; /* Vertical centering */
+  box-sizing: border-box;
+  /* Removed red border */
+}
+
+.login-signup-container {
+  width: 100%;
+  max-width: 500px;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-self: center;
+}
+
+h2 {
+  text-align: center;
+  color: #1f362e;
+  margin-bottom: 20px; /* Add some spacing below the title */
+  font-weight: 800;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px; /* Space between form elements */
+   /* Full width to fill container */
+  max-width: 300px; /* Optional, limit form width */
+}
+
+label {
+  font-size: 14px;
+  color: #1f362e;
+  text-align: start;
+}
+
+input[type="email"],
+input[type="password"] {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  transition: border-color 0.3s ease;
+}
+
+input[type="email"]:focus,
+input[type="password"]:focus {
+  outline: none;
+  border-color: #1f362e;
+}
+
+button {
+  padding: 12px;
+  background-color: #1f362e;
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  text-align: center;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #2e5a4a;
+}
+
+/* Message Styling */
+p {
+  text-align: center;
+  color: #007bff;
+  font-weight: bold;
+}
+
+.switch-mode{
+  background: none;
+  border: none;
+  color: #1f362e;
+  cursor: pointer;
+  font-size: 14px;
+  text-align: center;
+  margin-top: 10px;
+  font-weight: 55;
+}
+
+.switch-mode:hover {
+    color: #007bff;
+}

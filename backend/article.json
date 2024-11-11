@@ -1,0 +1,108 @@
+{
+  "latestnews": [
+    {
+      "id": "1726741668570",
+      "title": "z",
+      "name": "z",
+      "date": "2024-09-19",
+      "summary": "z",
+      "content": "az",
+      "category": "latestnews",
+      "image": "17e631eb504ce2a442a66188775e043c"
+    },
+    {
+      "id": "1726742032387",
+      "title": "fddgc",
+      "name": "ghgh",
+      "date": "2024-09-19",
+      "image": "",
+      "summary": "ghgghhjhhhjg",
+      "content": "tgyghyhuhhj",
+      "category": "latestnews"
+    },
+    {
+      "id": "1726742336136",
+      "title": "jhgfdfghj",
+      "name": "jhgfgh",
+      "date": "2024-09-19",
+      "summary": "lkjhgfdsdfgh",
+      "content": "jhgfdfghj",
+      "category": "latestnews",
+      "image": "6a2363e71101abed1c13e59a54e00c55"
+    },
+    {
+      "id": "1726744316999",
+      "title": "sxxsxs",
+      "name": "sxsxsxsx",
+      "date": "2024-09-19",
+      "summary": "sxsxsx",
+      "content": "sxxxsx",
+      "category": "latestnews",
+      "image": "85c45776b4d4169d1fea6876d356faaa"
+    },
+    {
+      "id": "1726744374130",
+      "title": "hbgbhgbn",
+      "name": "nb v b vb",
+      "date": "2024-09-19",
+      "image": "",
+      "summary": " nb b ",
+      "content": "vv c  ",
+      "category": "latestnews"
+    },
+    {
+      "id": "1726744475022",
+      "title": "axxz",
+      "name": "axxxa",
+      "date": "2024-09-19",
+      "summary": "axaxax",
+      "content": "axaxax",
+      "category": "latestnews",
+      "image": "8c687d6a04dceccad84af399427b0fe8"
+    }
+  ],
+  "topStory": [
+    {
+      "id": "1726743247562",
+      "title": "ff",
+      "name": "ddd",
+      "date": "2024-09-19",
+      "image": "",
+      "summary": "ddd",
+      "content": "ddd",
+      "category": "topStory"
+    },
+    {
+      "id": "1726743529176",
+      "title": "nbnb bbn",
+      "name": "bnbnb",
+      "date": "2024-09-19",
+      "summary": "gggg",
+      "content": "hnbnbnbvbvb",
+      "category": "topStory",
+      "image": "99eb6cecb21c3b3b0809c5a02f207ac4"
+    }
+  ],
+  "Business": [
+    {
+      "id": "1726743877610",
+      "title": "dwsqdw",
+      "name": "wdqdswqwsq",
+      "date": "2024-09-19",
+      "summary": "wdwqdqddwqd",
+      "content": "dwqdwqdwqdwqswq",
+      "category": "Business",
+      "image": "9d53b66a0231c4aa910953e855040eae"
+    },
+    {
+      "id": "1726744254618",
+      "title": "bn ",
+      "name": "nbnb bn ",
+      "date": "2024-09-19",
+      "summary": " vbvbvbbv ",
+      "content": " vbb b bvb ",
+      "category": "Business",
+      "image": "f4daa2a9378360db6af4390de479f581"
+    }
+  ]
+}

@@ -1,0 +1,264 @@
+/* Home page styling */
+.home-page {
+  max-width: 100%;
+  width: 100%;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  box-sizing: border-box;
+}
+
+h1, h2 {
+  color: #333;
+}
+
+/* Top Story Section */
+.top-story {
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.top-story img {
+  width: 100%;
+  max-width: 800px;
+  height: auto;
+  margin: 10px 0;
+}
+
+/* News Section */
+.news-section {
+  display: flex;
+  overflow-x: auto; /* Enable horizontal scrolling */
+  padding: 20px 0;
+  justify-content: flex-start;
+  align-items: flex-start;
+  scroll-snap-type: x mandatory;
+  max-width: 100%;
+  box-sizing: border-box;
+  flex-wrap: nowrap; /* Prevent wrapping */
+  gap: 10px;
+  -ms-overflow-style: none;  /* For Internet Explorer and Edge */
+  scrollbar-width: none;     /* For Firefox */
+  contain: content;
+  align-items: stretch;
+}
+
+/* Hide scrollbar for Chrome, Safari, and Opera */
+.news-section::-webkit-scrollbar {
+  display: none;
+}
+
+/* Show scrollbar on hover */
+.news-section:hover {
+  scrollbar-width: thin; /* Firefox */
+  -ms-overflow-style: auto; /* IE & Edge */
+}
+
+
+
+.news-article {
+  display: flex;                /* Use flexbox */
+  flex-direction: column;
+  justify-content: space-between; /* Space items evenly */
+  flex: 0 0 300px; /* Base width for each article */
+  height: 500px;
+  align-items: center;
+  width: 300px;
+  max-width: 300px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  overflow-wrap: break-word;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  background-color: #f9f9f9;
+  scroll-snap-align: start;
+  overflow: hidden;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  gap: 10px;
+  flex-shrink: 0;
+  
+  }
+
+.news-article img {
+  width: 100%; /* Ensure images fit within their container */
+  height: 200px; /* Fixed height for all images */
+  object-fit: cover; /* Ensures the image covers the area without distortion */
+  border-radius: 8px;
+}
+
+.news-article h3 {
+  font-size: 1.2em;
+  margin: 10px 0;
+  max-height: 2.4em; /* Limit to 2 lines */
+  line-height: 1.2em;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 1; /* Limit to 2 lines */
+  -webkit-box-orient: vertical;
+}
+
+.news-article p {
+  font-size: 1em;
+  color: #555;
+  margin: 10px 0;
+  max-height: 3.8em; /* Limit to 4 lines */
+  line-height: 1.3em;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3; /* Limit to 4 lines */
+  -webkit-box-orient: vertical;
+}
+
+/* Center the items if only one article is in the section */
+.categories {
+  display: block;
+  align-items: flex-start;
+}
+
+.top-story button, .news-section button {
+  padding: 10px 15px;
+  background-color: #1f362e;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  
+}
+
+.load-more-btn{
+  margin-top: 2px;
+}
+
+.top-story button:hover, .news-section button:hover {
+  background-color: #2e5a4a;
+}
+
+button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+/* Prevent accidental horizontal overflow */
+body {
+  overflow-x: hidden;
+}
+
+.not-available{
+  display: flex;
+  justify-content: center;
+  width: 100%;  
+}
+
+/* Small devices (phones, 600px and down) - Display 1 article per view */
+@media (max-width: 500px) {
+  .home-page {
+    padding: 10px;
+  }
+
+  .top-story {
+    padding: 15px;
+    margin-bottom: 15px;
+  }
+
+  .home-page h2{
+    font-size: 20px;
+  }
+
+  .top-story img {
+    max-width: 100%;
+  }
+
+  .news-section {
+    display: block;
+    align-items: center;
+    justify-self: center;
+    width: 300px;
+
+  }
+
+  .news-article {
+    flex: 0 0 100%; /* Single article per view */
+    margin-right: 15px;
+    width: 90%;
+    
+    
+  }
+
+  .news-article h3 {
+    font-size: 1.1em;
+  }
+
+  button {
+    padding: 8px 12px;
+    font-size: 0.9em;
+  }
+
+  .news-section:hover {
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: auto; /* IE & Edge */
+  }
+}
+
+/* Medium devices (tablets, 601px to 768px) - Display 2 articles per view */
+@media (max-width: 768px) {
+  .home-page {
+    padding: 15px;
+  }
+
+  .home-page h2{
+    font-size: 20px;
+  }
+
+  .top-story {
+    padding: 18px;
+  }
+
+  .news-section {
+    justify-content: flex-start;
+    
+  }
+
+  .news-article {
+    flex: 0 0 45%; /* Two articles per view */
+    margin-right: 15px;
+  }
+
+  .news-article h3 {
+    font-size: 1.15em;
+  }
+
+  button {
+    padding: 9px 13px;
+  }
+}
+
+/* Large devices (desktops, 769px and up) - Display 3 articles per view */
+@media (min-width: 769px) {
+  .home-page {
+    padding: 20px;
+  }
+
+  .top-story {
+    padding: 20px;
+  }
+
+  
+
+  .news-article {
+    flex: 0 0 30%; /* Three articles per view */
+    margin-right: 15px;
+    justify-content: center;
+    
+  }
+
+  .news-article h3 {
+    font-size: 1.2em;
+  }
+
+  button {
+    padding: 10px 15px;
+  }
+}
